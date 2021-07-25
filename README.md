@@ -5,5 +5,5 @@ BACKEND (root folder, not /backend)
 ```git bash
 npm init
 npm i -D nodemon concurrently
-npm i mssql dotenv express body-parser cors
+npm i mssql dotenv express body-parser cors http-errors
 ```
