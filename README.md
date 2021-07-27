@@ -11,8 +11,9 @@
 
 
 
- ## BACKEND (root folder, not /backend)
-  
+ ## Backend (root folder, not /backend)
+ <details>
+  <summary>NPM Installs and scripts</summary>  
 
   //for the entry point put to server.js instead of index.js
   ```git bash
@@ -34,9 +35,11 @@
       "data:export": "node backend/seeder",
 
   ```
+</details>
 
-
- ## FRONTEND 
+ ## Frontend
+ <details>
+  <summary>NPM Installs and scripts</summary>  
 
   //for the entry point put to server.js instead of index.js
   ```git bash
@@ -48,3 +51,4 @@
    frontend localhost:3000 & backend on port 3002, need to proxy
    "proxy": "http://127.0.0.1:3002",
    ```
+</details>
