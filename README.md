@@ -1,12 +1,16 @@
 # SQL Azure Leave Tracker
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Explanation of Files</summary>
   
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
+  ## Structure
+  1. Config.js
+      * Contains all the env variables required
+  2. dboperations.js
+     * Contains all queries
+     * Connects to SQL Server 
+  3. server.js
+   * Express Server
+   * Contains all routes
 </details>
 
 
