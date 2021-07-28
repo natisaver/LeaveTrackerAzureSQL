@@ -53,6 +53,23 @@ router.get("/users/:id", (req,res)=>{
     })
 });
 
+router.get("/latestnumber", (req,res)=>{
+    dboperations.getNumber().then(result => {
+        console.log("got latest application number")
+        res.json(result[0]);
+    })
+});
+
+router.post("/submit", async function(req,res, next){
+    try {
+        res.json(await dboperations.addLeave(req.body))
+        // console.log(req.body)
+    } catch (err) {
+        console.error("Error while adding a new leave", err.message)
+        next(err);
+    }
+});
+
 app.get("/", (req,res)=>{
     res.send("home");
 })
