@@ -47,7 +47,7 @@
 
   //for the entry point put to server.js instead of index.js
   ```git bash
-  npm react-bootstrap axios react-router-dom react-bootstrap-table-next react-dates
+  npm i react-bootstrap axios react-router-dom react-bootstrap-table-next react-dates moment
   ```
 
   To add into package.json "scripts" (Frontend)
