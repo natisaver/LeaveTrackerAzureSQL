@@ -2,6 +2,15 @@
 <details>
   <summary>Explanation of Files</summary>
   
+  Tech Stack:
+  - Client Side - ReactJS
+  - Server Side - NodeJS, Express
+  
+  Features:
+  - GET, POST from Database
+  - Overall List of Leaves
+  - Individual Leave History
+  
   ## Structure
   1. Config.js
       * Contains all the env variables required
