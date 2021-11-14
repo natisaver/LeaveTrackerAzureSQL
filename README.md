@@ -49,7 +49,7 @@
 
   ```
   
-  also include necessary .env
+  Root to also include .env (Root)
   
   ```
   PORT = ... 3002 etc.
