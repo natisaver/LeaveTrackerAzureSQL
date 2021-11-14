@@ -36,7 +36,7 @@
   npm install http-errors --save
   ```
 
-  To add into package.json "scripts" (Root)
+  To add into package.json "scripts" (Root) NOT BACKEND FOLDER
   ```bash
       "type": "module"
 
@@ -47,6 +47,16 @@
       "data:import": "node backend/seeder -d",
       "data:export": "node backend/seeder",
 
+  ```
+  
+  also include necessary .env
+  
+  ```
+  PORT = ... 3002 etc.
+  SERVER = ...
+  USER = ...
+  PASSWORD = ...
+  DB = ...
   ```
 </details>
 
